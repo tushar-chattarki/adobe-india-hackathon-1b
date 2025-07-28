@@ -8,7 +8,6 @@ It processes multiple collections of PDFs, extracts tabular data from each file,
 ## Project Structure
 
 ```
-bash
 adobe-hackathon-round1b/
 ├── collections/
 │   ├── sample1/
@@ -29,7 +28,7 @@ adobe-hackathon-round1b/
 ├── extractor/
 │   └── extract_tables.py
 └── README.md
-\---
+```
 
 ## How to Run
 
