@@ -29,7 +29,7 @@ adobe-hackathon-round1b/
 ├── extractor/
 │   └── extract_tables.py
 └── README.md
----
+\---
 
 ## How to Run
 
