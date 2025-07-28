@@ -5,7 +5,7 @@ It processes multiple collections of PDFs, extracts tabular data from each file,
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```bash
 adobe-hackathon-round1b/
@@ -30,7 +30,7 @@ adobe-hackathon-round1b/
 └── README.md
 ---
 
-## ⚙ How to Run
+## How to Run
 
 1. *Install requirements*:
    ```bash
@@ -48,7 +48,7 @@ Output JSONs will be stored inside the respective collection folder or printed t
 
 4. Output File (output.json): Located in output/, it stores the extracted tabular content per PDF and per collection.
 
-#🛠 Tech Stack
+# Tech Stack
 
 Python
 
@@ -58,7 +58,7 @@ JSON
 
 
 
-🛠 Setup Instructions
+ Setup Instructions
 
 1.cd adobe-hackathon-round1b
 
@@ -91,7 +91,7 @@ The final results will be saved in output/output.json.
 
 ---
 
-📄 Example input.json
+Example input.json
 
 {
   "collections": [
@@ -109,7 +109,7 @@ The final results will be saved in output/output.json.
 
 ---
 
-📦 Output Format (output/output.json)
+Output Format (output/output.json)
 
 Each collection includes:
 
@@ -121,7 +121,7 @@ files: list of PDF filenames with their extracted table data (as raw text for no
 
 ---
 
-📌 Notes
+Notes
 
 Ensure the folder names in input.json match the subfolder names inside collections/.
 
@@ -131,7 +131,7 @@ This version extracts all text as-is using PyMuPDF. To extract structured tables
 
 ---
 
-🔁 Future Improvements
+Future Improvements
 
 Add proper table structure recognition.
 
