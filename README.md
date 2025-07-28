@@ -7,7 +7,8 @@ It processes multiple collections of PDFs, extracts tabular data from each file,
 
 ## Project Structure
 
-```bash
+```
+bash
 adobe-hackathon-round1b/
 ├── collections/
 │   ├── sample1/
@@ -32,9 +33,10 @@ adobe-hackathon-round1b/
 
 ## How to Run
 
-1. *Install requirements*:
-   ```bash
-   pip install pymupdf
+1. **Install requirements**:
+   ```
+bash
+pip install pymupdf
 
 2. Run the table extraction script:
 
@@ -48,7 +50,7 @@ Output JSONs will be stored inside the respective collection folder or printed t
 
 4. Output File (output.json): Located in output/, it stores the extracted tabular content per PDF and per collection.
 
-# Tech Stack
+## Tech Stack
 
 Python
 
