@@ -82,6 +82,7 @@ The final results will be saved in output/output.json.
 
 Example input.json
 
+```
 {
   "collections": [
     {
@@ -94,6 +95,7 @@ Example input.json
     }
   ]
 }
+```
 
 ---
 
