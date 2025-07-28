@@ -34,7 +34,6 @@ adobe-hackathon-round1b/
 ## How to Run
 
 1. **Install requirements**:
-   ```
 bash
 pip install pymupdf
 
@@ -58,17 +57,13 @@ PyMuPDF (fitz)
 
 JSON
 
-
-
  Setup Instructions
 
 1.cd adobe-hackathon-round1b
 
-
 2. Install Dependencies
 
 pip install PyMuPDF
-
 
 3. Prepare Collections
 
@@ -76,20 +71,13 @@ Place PDF files into subfolders inside collections/ (e.g., sample1/, sample2/, e
 
 Ensure input.json lists these collections.
 
-
-
 4. Run the Extraction Script
 
 python extractor/extract_tables.py
 
-
 5. Check Output
 
 The final results will be saved in output/output.json.
-
-
-
-
 
 ---
 
@@ -108,7 +96,6 @@ Example input.json
   ]
 }
 
-
 ---
 
 Output Format (output/output.json)
@@ -119,8 +106,6 @@ collection_name: name of the folder
 
 files: list of PDF filenames with their extracted table data (as raw text for now)
 
-
-
 ---
 
 Notes
@@ -128,8 +113,6 @@ Notes
 Ensure the folder names in input.json match the subfolder names inside collections/.
 
 This version extracts all text as-is using PyMuPDF. To extract structured tables, enhancement with ML or rule-based logic is possible.
-
-
 
 ---
 
