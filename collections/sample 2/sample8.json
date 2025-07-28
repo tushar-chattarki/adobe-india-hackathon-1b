@@ -1,0 +1,9 @@
+{
+  "file_name": "sample8.pdf",
+  "tables": [
+    {
+      "page": 2,
+      "content": "Edit text in a PDF \nOpen the PDF you want to edit in Acrobat, and then select Edit in the global bar. \n \nThe PDF switches to the edit mode, and the Edit panel displays. If the PDF is generated from a \nscanned document, Acrobat automatically runs OCR to make the text and images editable. \n \n \nThe Edit panel includes options to modify the page, add content, redact a PDF, and convert \nvarious documents to PDF forms. You can use the options in the Edit panel to replace, edit, or \nadd text to a PDF. You can correct typos, change fonts and typeface size, adjust alignment, \nadd superscripts or subscripts, and resize text or paragraphs."
+    }
+  ]
+}
